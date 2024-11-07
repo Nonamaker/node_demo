@@ -1,0 +1,5 @@
+# This directory is used as a data file archive directory when testing
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore

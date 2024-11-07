@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "@types/node": "^22.9.0"
+  },
+  "scripts": {
+      "compile": "npx tsc"
+  }
+}
