@@ -1,9 +1,12 @@
 {
   "devDependencies": {
-    "typescript": "^5.6.3",
-    "@types/node": "^22.9.0"
+    "@types/jquery": "^3.5.32",
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
   },
   "scripts": {
-      "compile": "npx tsc"
+    "check": "npx tsc --noEmit",
+    "compile": "npx tsc",
+    "launch": "npx tsc && node ./build/server.js"
   }
 }
